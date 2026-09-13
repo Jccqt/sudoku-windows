@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>SudokuWindows.Core</RootNamespace>
+    <AssemblyName>SudokuWindows.Core</AssemblyName>
+    <Description>UI-independent domain and engine library for Sudoku for Windows.</Description>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>SudokuWindows.WinForms</RootNamespace>
+    <AssemblyName>SudokuWindows.WinForms</AssemblyName>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>false</SelfContained>
+    <Description>Windows Forms user interface for Sudoku for Windows.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SudokuWindows.Core\SudokuWindows.Core.csproj" />
+  </ItemGroup>
+</Project>

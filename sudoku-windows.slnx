@@ -1,3 +1,9 @@
 <Solution>
-  <Project Path="sudoku-windows/sudoku-windows.csproj" />
+  <Folder Name="/src/">
+    <Project Path="SudokuWindows.Core/SudokuWindows.Core.csproj" />
+    <Project Path="SudokuWindows.WinForms/SudokuWindows.WinForms.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="SudokuWindows.Tests/SudokuWindows.Tests.csproj" />
+  </Folder>
 </Solution>

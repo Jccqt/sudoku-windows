@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuWindows.Core", "SudokuWindows.Core\SudokuWindows.Core.csproj", "{6BC34073-386E-44BC-A50A-E23A73FD264B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuWindows.WinForms", "SudokuWindows.WinForms\SudokuWindows.WinForms.csproj", "{41CFDEB5-3003-4801-A0BA-CAB18789E668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuWindows.Tests", "SudokuWindows.Tests\SudokuWindows.Tests.csproj", "{11DDBB49-2CA1-4277-BA53-D1542C81828B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BC34073-386E-44BC-A50A-E23A73FD264B}.Debug|x64.ActiveCfg = Debug|x64
+		{6BC34073-386E-44BC-A50A-E23A73FD264B}.Debug|x64.Build.0 = Debug|x64
+		{6BC34073-386E-44BC-A50A-E23A73FD264B}.Release|x64.ActiveCfg = Release|x64
+		{6BC34073-386E-44BC-A50A-E23A73FD264B}.Release|x64.Build.0 = Release|x64
+		{41CFDEB5-3003-4801-A0BA-CAB18789E668}.Debug|x64.ActiveCfg = Debug|x64
+		{41CFDEB5-3003-4801-A0BA-CAB18789E668}.Debug|x64.Build.0 = Debug|x64
+		{41CFDEB5-3003-4801-A0BA-CAB18789E668}.Release|x64.ActiveCfg = Release|x64
+		{41CFDEB5-3003-4801-A0BA-CAB18789E668}.Release|x64.Build.0 = Release|x64
+		{11DDBB49-2CA1-4277-BA53-D1542C81828B}.Debug|x64.ActiveCfg = Debug|x64
+		{11DDBB49-2CA1-4277-BA53-D1542C81828B}.Debug|x64.Build.0 = Debug|x64
+		{11DDBB49-2CA1-4277-BA53-D1542C81828B}.Release|x64.ActiveCfg = Release|x64
+		{11DDBB49-2CA1-4277-BA53-D1542C81828B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
